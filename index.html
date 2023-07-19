@@ -1,0 +1,72 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz Game</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>JavaScript Quiz Game</h1>
+    <p>Choose the correct answer for each question:</p>
+
+    <div class="questions-container">
+      <!-- Question 1 -->
+      <div class="question">
+        <h2>Question 1:</h2>
+        <p>What is the capital of France?</p>
+        <ul>
+          <li><input type="radio" name="q1" value="a"> a) Paris</li>
+          <li><input type="radio" name="q1" value="b"> b) Rome</li>
+          <li><input type="radio" name="q1" value="c"> c) Berlin</li>
+        </ul>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question">
+        <h2>Question 2:</h2>
+        <p>Which planet is known as the "Red Planet"?</p>
+        <ul>
+          <li><input type="radio" name="q2" value="a"> a) Venus</li>
+          <li><input type="radio" name="q2" value="b"> b) Mars</li>
+          <li><input type="radio" name="q2" value="c"> c) Jupiter</li>
+        </ul>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question">
+        <h2>Question 3:</h2>
+        <p>What is the largest mammal in the world?</p>
+        <ul>
+          <li><input type="radio" name="q3" value="a"> a) African Elephant</li>
+          <li><input type="radio" name="q3" value="b"> b) Blue Whale</li>
+          <li><input type="radio" name="q3" value="c"> c) Grizzly Bear</li>
+        </ul>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="question">
+        <h2>Question 4:</h2>
+        <p>What is the largest planet in our solar system?</p>
+        <ul>
+          <li><input type="radio" name="q4" value="a"> a) Mars</li>
+          <li><input type="radio" name="q4" value="b"> b) Jupiter</li>
+          <li><input type="radio" name="q4" value="c"> c) Saturn</li>
+        </ul>
+      </div>
+      <!-- Add more questions here -->
+    </div>
+
+    <button id="submit-btn">Submit Answers</button>
+    <div class="results">
+      <h2>Results:</h2>
+      <p id="score">Your score will appear here.</p>
+    </div>
+  </div>
+
+  <script src="js/quiz.js"></script>
+</body>
+</html>
